@@ -1,36 +1,56 @@
 const projects = [
   {
     id: 1,
-    title: "AI Travel Planner",
+    title: "Saffron E-Commerce",
     description:
-      "A smart travel assistant that suggests optimized itineraries using AI. Built with React, Tailwind, and OpenAI API.",
-    github: "https://github.com/yourusername/ai-travel-planner",
-    live: "https://travelai.example.com",
-    tech: ["React", "Tailwind CSS", "OpenAI", "Node.js"],
+      "Saffron is a full-stack multi-vendor e-commerce platform built specifically for saffron sellers and buyers. It allows multiple registered users to sell their saffron products, while buyers can browse, add to cart, and purchase. The platform includes a centralized admin system where an admin reviews and approves seller products before they go live, ensuring quality control and trust.",
+    github: "https://github.com/",
+    live: "https://saffron-jet.vercel.app/",
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "OpenAI",
+      "Node.js",
+      "Google Auth",
+      "Framer Motion",
+    ],
     videoPreview: "https://your-video-url.com/preview1.mp4",
-    impact: "Saved 100+ hours of travel planning for users.",
+    impact:
+      "Enabled local saffron sellers to digitize their business with zero technical knowledge.",
+    image: "saffron.jpg",
   },
   {
     id: 2,
-    title: "Food Delivery Admin Panel",
+    title: "Zwiggy with Admin Panel",
     description:
-      "An admin dashboard to manage restaurants, orders, and delivery staff with real-time updates.",
-    github: "https://github.com/yourusername/food-delivery-admin",
-    live: "https://foodadmin.example.com",
-    tech: ["React", "Chart.js", "Firebase", "Tailwind"],
+      "Zwiggy is a modern food delivery platform where users can browse restaurants, explore menus, and order food online for home delivery. The platform supports multiple restaurants, real-time cart management, and secure checkout. Admins and restaurant owners can manage food items, prices, and orders.",
+    github: "https://github.com/devadityajha/Zwiggy",
+    live: "https://zwiggy-devadityajha.vercel.app/",
+    tech: [
+      "React",
+      "Chart.js",
+      "Firebase",
+      "Tailwind",
+      "Framer Motion",
+      "Google Auth",
+    ],
     videoPreview: "https://your-video-url.com/preview2.mp4",
-    impact: "Used by 10+ restaurant chains for backend operations.",
+    impact:
+      "Designed to scale with AI-driven features like personalized recommendations and delivery predictions.",
+    image: "zwiggy.jpg",
   },
   {
     id: 3,
-    title: "Portfolio Website (This One!)",
+    title: "HCP Travels",
     description:
-      "An animated, multilingual, dark-mode-supported personal portfolio built to impress recruiters and clients.",
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.com",
-    tech: ["React", "Framer Motion", "Tailwind CSS", "Chart.js"],
+      "HCP Travels is a modern travel booking platform where users can explore destinations, save favorite packages, and book customized tours. It features profile management, admin-approved listings, and a personalized dashboard for both solo and group travelers.",
+    github: "https://github.com/devadityajha/HcpTravels",
+    live: "https://www.hcptravel.com/",
+    tech: ["React", "Framer Motion", "Tailwind CSS", "NodeJs", "Google Auth"],
     videoPreview: "https://your-video-url.com/preview3.mp4",
-    impact: "Helped me get 5 job interviews within 2 weeks.",
+    impact:
+      "Increased trust and safety through a verified booking and admin approval system, avoiding spammy or low-quality listings",
+    image: "hcp.jpg",
   },
 ];
 

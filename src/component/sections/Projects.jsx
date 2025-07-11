@@ -119,8 +119,16 @@ const Projects = ({ language }) => {
                     </span>
                   ))}
                 </div>
+                <div className="mt-4 px-4 py-2 bg-teal-50 dark:bg-teal-900/20 rounded-lg border-l-4 border-teal-500">
+                  <h4 className="text-sm font-semibold text-teal-700 dark:text-teal-300 mb-1">
+                    Impact
+                  </h4>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">
+                    {project.impact}
+                  </p>
+                </div>
 
-                <div className="grid grid-cols-2 gap-2 mt-4">
+                {/* <div className="grid grid-cols-2 gap-2 mt-4">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-teal-600">
                       {project.impact.users}
@@ -137,7 +145,7 @@ const Projects = ({ language }) => {
                       {language === "en" ? "Performance" : "प्रदर्शन"}
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}
