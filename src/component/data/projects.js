@@ -5,7 +5,7 @@ const projects = [
     description:
       "Saffron is a full-stack multi-vendor e-commerce platform built specifically for saffron sellers and buyers. It allows multiple registered users to sell their saffron products, while buyers can browse, add to cart, and purchase. The platform includes a centralized admin system where an admin reviews and approves seller products before they go live, ensuring quality control and trust.",
     github: "https://github.com/",
-    live: "https://saffron-jet.vercel.app/",
+    live: "https://www.kisansaffrononline.com/",
     tech: [
       "React",
       "Tailwind CSS",
