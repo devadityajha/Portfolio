@@ -116,7 +116,8 @@ const Resume = ({ language }) => {
 
             <div className="flex justify-center mt-4 gap-4">
               <motion.button
-                onClick={handlePrint}
+                // onClick={handlePrint}
+                onClick={() => window.open("/print-resume.html", "_blank")}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="flex items-center gap-2 bg-white text-teal-600 px-4 py-2 rounded-lg text-sm font-medium"
