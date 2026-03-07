@@ -19,10 +19,22 @@ const skills = [
       { name: "Express.js", level: 85 },
       { name: "MongoDB.js", level: 85 },
       { name: "GraphQL", level: 75 },
+      { name: "Web Socket", level: 70 },
     ],
   },
   {
     id: 3,
+    name: "Devops",
+    icon: "🛠️",
+    skills: [
+      { name: "Docker", level: 60 },
+      { name: "AWS", level: 55 },
+      { name: "CI/CD Pipeline", level: 65 },
+      { name: "Redis", level: 70 },
+    ],
+  },
+  {
+    id: 4,
     name: "Tools",
     icon: "⚙️",
     skills: [

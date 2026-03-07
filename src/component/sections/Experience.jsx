@@ -9,31 +9,31 @@ const Experience = ({ language }) => {
   const experiences = [
     {
       id: 1,
-      company: "HCP Travels",
-      role: language === "en" ? "Backend Developer" : "बैकएंड डेवलपर",
+      company: "Foto G",
+      role: language === "en" ? "Full Stack Developer" : "पूर्ण स्टैक डेवलपर",
       period: "May 2025 - Present",
       description:
         language === "en"
-          ? "Developing the full-stack HCP Travels platform, implementing secure JWT-based login and dynamic travel APIs, while optimizing UI with React.js and Tailwind CSS for a seamless user experience."
+          ? "Working as a Full Stack Developer, where I focus on building and managing high-quality web applications and client websites. My role involves handling both frontend and backend development to create digital products that are fast, secure, and easy to use. I work closely with the design and management teams to transform client ideas into fully functional websites."
           : "पूर्ण-स्टैक एचसीपी ट्रैवल्स प्लेटफॉर्म का विकास करना, सुरक्षित जेडब्ल्यूटी-आधारित लॉगिन और गतिशील यात्रा एपीआई को लागू करना, जबकि निर्बाध उपयोगकर्ता अनुभव के लिए रिएक्ट.जेएस और टेलविंड सीएसएस के साथ यूआई को अनुकूलित करना।",
       responsibilities:
         language === "en"
           ? [
-              "Architected and implemented modular Express.js routes for scalable API structure across user authentication and travel packages.",
-              "Improved Website performance by 40% through code optimization",
-              "Maintained clean codebase with Git and collaborated using GitHub for version control.",
-              "Managed APIs for tours, bookings, and user data with a scalable backend in Node.js and MongoDB.",
+              "Developing responsive and interactive user interfaces using React.js and Tailwind CSS.",
+              "Building and maintaining server-side features and APIs using Node.js and Express.js.",
+              "Designing and customizing professional websites on WordPress, ensuring a clean look and smooth user experience.",
+              "Working with designers and project managers to deliver high-quality projects on time.",
             ]
           : [
-              "यूज़र ऑथेंटिकेशन और टूर पैकेज के लिए स्केलेबल API स्ट्रक्चर हेतु मॉड्यूलर Express.js रूट्स को डिज़ाइन और इम्प्लीमेंट किया।",
-              "कोड ऑप्टिमाइज़ेशन के माध्यम से वेबसाइट की परफॉर्मेंस को 40% तक बेहतर किया।",
-              "Git का उपयोग करके कोडबेस को साफ़ और व्यवस्थित बनाए रखा और GitHub पर टीम के साथ सहयोग किया।",
-              "Node.js और MongoDB का उपयोग करके टूर, बुकिंग और यूज़र डेटा के लिए स्केलेबल APIs को मैनेज किया।",
+              "React.js और Tailwind CSS का उपयोग करके प्रतिक्रियाशील (Responsive) और संवादात्मक (Interactive) यूज़र इंटरफेस विकसित किया ।",
+              "Node.js और Express.js के माध्यम से सर्वर-साइड फीचर्स और API का निर्माण और प्रबंधन किया ।",
+              "WordPress पर व्यावसायिक वेबसाइटों को डिज़ाइन और कस्टमाइज़ किया, जिससे एक स्पष्ट रूप और सहज उपयोगकर्ता अनुभव सुनिश्चित हुआ ।",
+              "वेबसाइट लोडिंग गति में सुधार किया और तकनीकी त्रुटियों (Bugs) का निवारण किया ताकि ग्राहकों को सर्वश्रेष्ठ प्रदर्शन मिल सके ।",
             ],
 
       tech: ["React", "Express", "Next.js", "MongoDb", "Tailwind CSS"],
       teamSize: 15,
-      link: "https://www.hcptravel.com/",
+      link: "https://fotog.in/",
     },
     {
       id: 2,

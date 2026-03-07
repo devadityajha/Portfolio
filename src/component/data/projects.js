@@ -1,23 +1,24 @@
 const projects = [
   {
     id: 1,
-    title: "Saffron E-Commerce",
+    title: "Secure Stream AI",
     description:
-      "Saffron is a full-stack multi-vendor e-commerce platform built specifically for saffron sellers and buyers. It allows multiple registered users to sell their saffron products, while buyers can browse, add to cart, and purchase. The platform includes a centralized admin system where an admin reviews and approves seller products before they go live, ensuring quality control and trust.",
-    github: "https://github.com/",
-    live: "https://www.kisansaffrononline.com/",
+      "Architected and developed Secure Stream AI, a high-concurrency proctoring system built with the MERN stack, WebRTC, and Socket.io to automate exam integrity. The platform achieves sub-second latency for dual-stream monitoring, maintaining 99% connectivity across strict firewalls via custom STUN/TURN server configurations. Integrated MediaPipe AI to engineer a visibility tracker that flags violations at <75% face coverage, optimized to run at a consistent 10-12 FPS on low-end hardware. Beyond visual monitoring, the system logs critical breaches—including tab-switching, unauthorized screenshots, and audio spikes—while utilizing JWT for stateless authentication and managing a scalable Cloudinary pipeline for persistent session recordings.",
+    github: "",
+    live: "https://secure-stream-ai-detection.vercel.app",
     tech: [
       "React",
       "Tailwind CSS",
-      "OpenAI",
       "Node.js",
       "Google Auth",
-      "Framer Motion",
+      "Web Socket",
+      "Web Rtc",
+      "Media Pipe AI",
     ],
     videoPreview: "https://your-video-url.com/preview1.mp4",
     impact:
-      "Enabled local saffron sellers to digitize their business with zero technical knowledge.",
-    image: "saffron.jpg",
+      "Developed a lightweight AI engine that runs seamlessly on low-configuration devices, ensuring that students from resource-constrained backgrounds are not penalized by technical limitations.",
+    image: "secureStreamAi.jpeg",
   },
   {
     id: 2,
@@ -41,16 +42,16 @@ const projects = [
   },
   {
     id: 3,
-    title: "HCP Travels",
+    title: "Image Ocean",
     description:
-      "HCP Travels is a modern travel booking platform where users can explore destinations, save favorite packages, and book customized tours. It features profile management, admin-approved listings, and a personalized dashboard for both solo and group travelers.",
-    github: "https://github.com/devadityajha/HcpTravels",
-    live: "https://www.hcptravel.com/",
-    tech: ["React", "Framer Motion", "Tailwind CSS", "NodeJs", "Google Auth"],
+      "Architected Ocean, a high-performance visual discovery engine inspired by Pinterest and Pexels, designed for seamless high-resolution image rendering and community-driven content curation. The platform utilizes a sophisticated Masonry grid layout and infinite scroll logic to deliver a fluid, low-latency browsing experience across all devices. By spearheading the integration of Cloudinary for asset optimization, I ensured that raw, high-quality images are delivered with minimal bandwidth consumption, maintaining a premium look without compromising on loading speeds.",
+    github: "",
+    live: "https://imageocean.vercel.app/",
+    tech: ["React", "Cloudinary", "Tailwind CSS", "NodeJs", "Observer Api"],
     videoPreview: "https://your-video-url.com/preview3.mp4",
     impact:
-      "Increased trust and safety through a verified booking and admin approval system, avoiding spammy or low-quality listings",
-    image: "hcp.jpg",
+      "Spearheaded a high-performance image delivery engine using Cloudinary, ensuring high-resolution rendering with minimal bandwidth consumption and sub-second loading times.",
+    image: "imageOcean.jpeg",
   },
 ];
 
