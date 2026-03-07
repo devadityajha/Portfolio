@@ -18,6 +18,28 @@ const Contact = ({ language }) => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+  const socialLinks = [
+    {
+      name: "GitHub",
+      url: "https://github.com/devadityajha", // Tera real GitHub
+      icon: "G",
+    },
+    {
+      name: "LinkedIn",
+      url: "https://linkedin.com/in/aditya-jha-237740211", // Tera official LinkedIn
+      icon: "L",
+    },
+    {
+      name: "WhatsApp",
+      url: "https://wa.me/917683053507?text=Hi%20Aditya!", // Tera chat link
+      icon: "W",
+    },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/your_handle", // Manual handle dalo
+      icon: "T",
+    },
+  ];
 
   const fieldVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -231,7 +253,7 @@ const Contact = ({ language }) => {
 
               <div className="space-y-6">
                 <motion.a
-                  href="https://wa.me/yourphonenumber"
+                  href="https://wa.me/+917683053507"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-green-100 dark:bg-green-900/30 rounded-lg hover:bg-green-200 dark:hover:bg-green-900/50 transition-colors"
@@ -306,26 +328,22 @@ const Contact = ({ language }) => {
                   : "मैं नई परियोजनाओं, रचनात्मक विचारों या आपके विज़न का हिस्सा बनने के अवसरों पर चर्चा करने के लिए हमेशा तैयार हूं।"}
               </p>
               <div className="flex gap-4">
-                {["github", "linkedin", "twitter", "dribbble"].map(
-                  (platform, i) => (
-                    <motion.a
-                      key={platform}
-                      href={`https://${platform}.com/coderbme`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors"
-                      whileHover={{ y: -5 }}
-                      whileTap={{ scale: 0.9 }}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: i * 0.1 }}
-                    >
-                      <span className="text-lg">
-                        {platform[0].toUpperCase()}
-                      </span>
-                    </motion.a>
-                  )
-                )}
+                {socialLinks.map((social, i) => (
+                  <motion.a
+                    key={social.name}
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors"
+                    whileHover={{ y: -5 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: i * 0.1 }}
+                  >
+                    <span className="text-lg font-bold">{social.icon}</span>
+                  </motion.a>
+                ))}
               </div>
             </motion.div>
           </div>

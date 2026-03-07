@@ -22,6 +22,19 @@ const projects = [
   },
   {
     id: 2,
+    title: "Image Ocean",
+    description:
+      "Architected Ocean, a high-performance visual discovery engine inspired by Pinterest and Pexels, designed for seamless high-resolution image rendering and community-driven content curation. The platform utilizes a sophisticated Masonry grid layout and infinite scroll logic to deliver a fluid, low-latency browsing experience across all devices. By spearheading the integration of Cloudinary for asset optimization, I ensured that raw, high-quality images are delivered with minimal bandwidth consumption, maintaining a premium look without compromising on loading speeds.",
+    github: "",
+    live: "https://imageocean.vercel.app/",
+    tech: ["React", "Cloudinary", "Tailwind CSS", "NodeJs", "Observer Api"],
+    videoPreview: "https://your-video-url.com/preview3.mp4",
+    impact:
+      "Spearheaded a high-performance image delivery engine using Cloudinary, ensuring high-resolution rendering with minimal bandwidth consumption and sub-second loading times.",
+    image: "imageOcean.jpeg",
+  },
+  {
+    id: 3,
     title: "Zwiggy with Admin Panel",
     description:
       "Zwiggy is a modern food delivery platform where users can browse restaurants, explore menus, and order food online for home delivery. The platform supports multiple restaurants, real-time cart management, and secure checkout. Admins and restaurant owners can manage food items, prices, and orders.",
@@ -39,19 +52,6 @@ const projects = [
     impact:
       "Designed to scale with AI-driven features like personalized recommendations and delivery predictions.",
     image: "zwiggy.jpg",
-  },
-  {
-    id: 3,
-    title: "Image Ocean",
-    description:
-      "Architected Ocean, a high-performance visual discovery engine inspired by Pinterest and Pexels, designed for seamless high-resolution image rendering and community-driven content curation. The platform utilizes a sophisticated Masonry grid layout and infinite scroll logic to deliver a fluid, low-latency browsing experience across all devices. By spearheading the integration of Cloudinary for asset optimization, I ensured that raw, high-quality images are delivered with minimal bandwidth consumption, maintaining a premium look without compromising on loading speeds.",
-    github: "",
-    live: "https://imageocean.vercel.app/",
-    tech: ["React", "Cloudinary", "Tailwind CSS", "NodeJs", "Observer Api"],
-    videoPreview: "https://your-video-url.com/preview3.mp4",
-    impact:
-      "Spearheaded a high-performance image delivery engine using Cloudinary, ensuring high-resolution rendering with minimal bandwidth consumption and sub-second loading times.",
-    image: "imageOcean.jpeg",
   },
 ];
 
