@@ -20,6 +20,21 @@ const projects = [
       "Developed a lightweight AI engine that runs seamlessly on low-configuration devices, ensuring that students from resource-constrained backgrounds are not penalized by technical limitations.",
     image: "secureStreamAi.jpeg",
   },
+
+  {
+    id: 3,
+    title: "HireTrack Pro",
+    description:
+      "HireTrack Pro is a high-performance, local-first workspace designed to eliminate the spreadsheet fatigue of the modern job hunt. Built for speed and 100% data privacy, it transforms a chaotic search into a structured, data-driven pipeline—all within the browser.",
+    github: "https://github.com/devadityajha/Hiring-Dashboard-Pro",
+    live: "https://hiring-dashboard-pro.vercel.app/",
+    tech: ["React", "Fuse.js", "recharts", "Tailwind", "zustand", "idb"],
+    videoPreview: "https://your-video-url.com/preview2.mp4",
+    impact:
+      "HireTrack Pro mitigates the mental health toll of unemployment by replacing chaotic uncertainty with a structured, habit-driven system that restores a sense of agency to the job seeker.",
+    image: "hiringpro.jpeg",
+  },
+
   {
     id: 2,
     title: "Image Ocean",
@@ -32,26 +47,6 @@ const projects = [
     impact:
       "Spearheaded a high-performance image delivery engine using Cloudinary, ensuring high-resolution rendering with minimal bandwidth consumption and sub-second loading times.",
     image: "imageOcean.jpeg",
-  },
-  {
-    id: 3,
-    title: "Zwiggy with Admin Panel",
-    description:
-      "Zwiggy is a modern food delivery platform where users can browse restaurants, explore menus, and order food online for home delivery. The platform supports multiple restaurants, real-time cart management, and secure checkout. Admins and restaurant owners can manage food items, prices, and orders.",
-    github: "https://github.com/devadityajha/Zwiggy",
-    live: "https://zwiggy-devadityajha.vercel.app/",
-    tech: [
-      "React",
-      "Chart.js",
-      "Firebase",
-      "Tailwind",
-      "Framer Motion",
-      "Google Auth",
-    ],
-    videoPreview: "https://your-video-url.com/preview2.mp4",
-    impact:
-      "Designed to scale with AI-driven features like personalized recommendations and delivery predictions.",
-    image: "zwiggy.jpg",
   },
 ];
 
