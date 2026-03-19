@@ -93,7 +93,6 @@
 // };
 
 // export default Skills;
-
 // src/components/sections/Skills.jsx
 import React from "react";
 import { motion } from "framer-motion";
@@ -104,7 +103,9 @@ const Skills = ({ language }) => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.1 },
+      transition: {
+        staggerChildren: 0.1,
+      },
     },
   };
 
@@ -159,16 +160,15 @@ const Skills = ({ language }) => {
                       </span>
                     </div>
 
-                    {/* ✅ FIX: Use scaleX instead of width % */}
-                    {/* The outer div is the track, inner div fills it using scaleX */}
+                    {/* ✅ FIX: overflow-hidden on track + scaleX animation instead of width % */}
                     <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 overflow-hidden">
                       <motion.div
                         className="h-2.5 rounded-full bg-teal-600 origin-left"
                         initial={{ scaleX: 0 }}
                         whileInView={{ scaleX: skill.level / 100 }}
-                        viewport={{ once: true, margin: "-50px" }}
+                        // ✅ FIX: amount:0.5 instead of margin — works correctly on mobile viewports
+                        viewport={{ once: true, amount: 0.5 }}
                         transition={{ duration: 1, ease: "easeOut" }}
-                        // ✅ width is always 100%, scaleX controls how much shows
                         style={{ width: "100%" }}
                       />
                     </div>
