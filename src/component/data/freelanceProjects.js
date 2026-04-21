@@ -2,14 +2,13 @@
 const freelanceProjects = [
   {
     id: 1,
-    title: "Landing Page",
+    title: "Aone Tandoor",
     description:
-      "Worked with real clients to build a 3D-reactive, animated landing page, Used modern libraries like react-three-fiber, Tailwind, and Framer Motion. Delivered optimized, animated, responsive design to boost their brand presence",
-    client: "Pritech Solution",
-    year: "2025",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    image: "pritech.jpg",
-    live: "https://pritech-solution.vercel.app/",
+      "A-One Tandoors is a B2B manufacturing website built for a clay and metal tandoor manufacturer. The site features a premium editorial UI with scroll-triggered animations, a content-rich product showcase, and a fully integrated Sanity.io headless CMS — allowing the client to update products, images, and page content directly from a custom admin dashboard without any developer help.",
+    year: "2026",
+    tech: ["React", "Sanity", "Cloudinary"],
+    image: "aonetandoor.jpeg",
+    live: "https://aonetandoor.com/",
     features: [
       "Responsive design",
       "Appointment scheduling",
